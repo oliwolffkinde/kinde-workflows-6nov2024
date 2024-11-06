@@ -14,10 +14,8 @@ import {
     async handle(event: onUserTokenGeneratedEvent) {
       const accessToken = accessTokenCustomClaims<{
         hello: string;
-        ipAddress: string;
       }>();
   
       accessToken.hello = "Hello there!";
-      accessToken.ipAddress = event.request.ip;
     },
   };
