@@ -1,6 +1,6 @@
 export const workflowSettings = {
-    id: 'userTokensWorkflow',
-    name: 'User token generation',
+    id: 'userTokensWorkflowv2',
+    name: 'User token generation v2',
     trigger: 'user:tokens_generation',
     bindings: {
         console: {},
